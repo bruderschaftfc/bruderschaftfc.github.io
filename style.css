@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: lightgreen;
+}
+
+header {
+    background-color: #015fd0;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: relative;
+}
+
+header .logo {
+    width: 250px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+nav {
+    font-family: 'Pacifico', cursive;
+    font-size: 15px;
+    justify-content: center;
+    background-color: #b3761d;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    display: inline-flex;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #f8d177;
+}
+
+.container {
+    flex: 1;
+    padding: 2rem;
+    position: relative;
+}
+
+#anasayfa {
+    background-size: cover;
+    background-position: center;
+}
+
+#anasayfa .content {
+    background-color: lightgreen;
+    padding: 1rem;
+}
+
+.player {
+    margin: 1rem 0;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: auto;
+}
+hr {
+    border: 1px solid black;    
+}
+.goruntuler {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+.takim-logo {
+    max-width: 100px;
+    height: 100px;
+    margin: 1rem auto;
+    border-radius: 50%;
+}
+
+#cevizlispor {
+    width: 120px;
+}
