@@ -78,6 +78,7 @@ footer {
     bottom: 0;
     width: 100%;
     margin-top: auto;
+    clear: both;
 }
 hr {
     border: 1px solid black;    
@@ -97,4 +98,28 @@ hr {
 
 #cevizlispor {
     width: 120px;
+}
+
+.sonuclar {
+    text-align: center;
+    padding: 30px;
+}
+.sonuclar div {
+    border: 3px solid black;
+    display:inline-table;
+    text-align: center;
+    padding-inline: 50px;
+}
+.haberler {
+    padding: 30px;
+}
+
+@media (max-width: 550px) {
+    nav a {
+        display: block;
+    }
+    .sonuclar div {
+        border: none;
+        padding: 30px;
+    }
 }
