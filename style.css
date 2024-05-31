@@ -113,6 +113,11 @@ hr {
 .haberler {
     padding: 30px;
 }
+.mac-programi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 @media (max-width: 550px) {
     nav a {
@@ -121,5 +126,15 @@ hr {
     .sonuclar div {
         border: none;
         padding: 30px;
+    }
+    .mac-programi {
+        max-width: 100%;
+    }
+    .sonuclar {
+        padding-inline: 0px;
+    }
+    .haberler {
+        padding: 0%;
+        padding-top: 30px;
     }
 }
