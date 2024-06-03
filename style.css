@@ -30,7 +30,7 @@ header .logo {
     height: auto;
     display: block;
     margin: 0 auto;
-    opacity: 0.1;
+    opacity: 0;
 }
 
 nav {
