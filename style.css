@@ -10,22 +10,27 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: lightgreen;
+    background-color: rgb(144, 238, 144);
 }
 
 header {
-    background-color: #015fd0;
-    color: #fff;
+    color: #015fd0;
     padding: 1rem 0;
     text-align: center;
-    position: relative;
+    background-image: url("./assets/images/betonista-bruderschaft-maci.webp");
+    background-position: center;
+    background-size: cover;
+}
+h1 {
+    background-color: #ff008c4d;
 }
 
 header .logo {
-    width: 250px;
+    width: 275px;
     height: auto;
     display: block;
     margin: 0 auto;
+    opacity: 0.1;
 }
 
 nav {
